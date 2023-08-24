@@ -4,8 +4,10 @@
   "description": "A test API for practicing with Mongodb using mongoose; Node.js and Express",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node app.js",
+    "dev": "nodemon app.js"
   },
+  "type": "module",
   "keywords": [
     "API",
     "Mongoose",
